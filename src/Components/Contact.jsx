@@ -10,7 +10,7 @@ const Contact = () => {
       className="bg-[#171d32] text-white px-6 py-12 md:py-16 md:px-24 text-center md:flex justify-evenly"
     >
       <div className="mb-10">
-        <h1 className=" text-indigo-900 text-3xl md:text-6xl font-bold mb-4">
+        <h1 className=" text-indigo-900 text-3xl md:text-6xl font-bold mb-4 animate-pulse">
           Contact
         </h1>
         <h3 className="text-md md:text-2xl font-light text-gray-400">

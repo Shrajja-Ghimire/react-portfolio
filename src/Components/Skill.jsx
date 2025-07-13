@@ -11,7 +11,7 @@ const Skill = () => {
         Below are some of the technologies and tools I work with regularly:
       </p>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 justify-items-center text-5xl text-gray-600">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-4 justify-items-center text-5xl text-gray-600">
         <div className="hover:text-orange-600 transition duration-300">
           <FaHtml5 />
           <p className="text-sm mt-2">HTML5</p>
@@ -35,6 +35,10 @@ const Skill = () => {
         <div className="hover:text-cyan-500 transition duration-300">
           <FaReact />
           <p className="text-sm mt-2">React</p>
+        </div>
+        <div className="hover:text-cyan-500 transition duration-300">
+          <FaReact />
+          <p className="text-sm mt-2">Typescript</p>
         </div>
       </div>
     </div>

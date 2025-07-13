@@ -11,11 +11,15 @@ const Project = () => {
           profile={weather}
           title="WeatherApp"
           main="This is my first real-world  development project fully responsive app that fetches live data from an external API. It adapts seamlessly across all devices, from mobile to desktop. I used Tailwind CSS for styling and added a feature to dynamically change the background based on the current weather conditions. "
+          demo="https://weather-app-swart-kappa-11.vercel.app/"
+          code="https://github.com/Shrajja-Ghimire/WeatherApp"
         />
         <ProjectCard
           profile={ecommerce}
           title="Fast-Store"
           main="I built an e-commerce site using TailwindCSS for a clean and responsive design. Redux manages the app's state, and there's a search feature to filter products by category. I implemented login using an external API with default values pre-filled in the fields. "
+          demo="https://fast-store-tau.vercel.app/"
+          code="https://github.com/Shrajja-Ghimire/fastStore"
         />
       </div>
     </div>
